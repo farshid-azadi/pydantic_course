@@ -8,6 +8,18 @@ resolution-markers = [
 ]
 
 [[package]]
+name = "aiofile"
+version = "3.12.3"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+dependencies = [
+    { name = "caio" },
+]
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/aiofile/aiofile-3.12.3.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/aiofile/aiofile-3.12.3-py3-none-any.whl" },
+]
+
+[[package]]
 name = "aiohappyeyeballs"
 version = "2.6.1"
 source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
@@ -141,6 +153,25 @@ wheels = [
 ]
 
 [[package]]
+name = "anthropic"
+version = "0.120.2"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+dependencies = [
+    { name = "anyio" },
+    { name = "distro" },
+    { name = "docstring-parser" },
+    { name = "httpx" },
+    { name = "jiter" },
+    { name = "pydantic" },
+    { name = "sniffio" },
+    { name = "typing-extensions" },
+]
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/anthropic/anthropic-0.120.2.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/anthropic/anthropic-0.120.2-py3-none-any.whl" },
+]
+
+[[package]]
 name = "anyio"
 version = "4.13.0"
 source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
@@ -160,6 +191,15 @@ source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
 sdist = { url = "https://mirror2.chabokan.net/pypi/packages/appnope/appnope-0.1.4.tar.gz" }
 wheels = [
     { url = "https://mirror2.chabokan.net/pypi/packages/appnope/appnope-0.1.4-py2.py3-none-any.whl" },
+]
+
+[[package]]
+name = "argcomplete"
+version = "3.7.1"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/argcomplete/argcomplete-3.7.1.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/argcomplete/argcomplete-3.7.1-py3-none-any.whl" },
 ]
 
 [[package]]
@@ -246,12 +286,43 @@ wheels = [
 ]
 
 [[package]]
+name = "authlib"
+version = "1.7.2"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+dependencies = [
+    { name = "cryptography" },
+    { name = "joserfc" },
+]
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/authlib/authlib-1.7.2.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/authlib/authlib-1.7.2-py2.py3-none-any.whl" },
+]
+
+[[package]]
 name = "babel"
 version = "2.18.0"
 source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
 sdist = { url = "https://mirror2.chabokan.net/pypi/packages/babel/babel-2.18.0.tar.gz" }
 wheels = [
     { url = "https://mirror2.chabokan.net/pypi/packages/babel/babel-2.18.0-py3-none-any.whl" },
+]
+
+[[package]]
+name = "backports-tarfile"
+version = "1.2.0"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/backports-tarfile/backports_tarfile-1.2.0.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/backports-tarfile/backports.tarfile-1.2.0-py3-none-any.whl" },
+]
+
+[[package]]
+name = "beartype"
+version = "0.22.9"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/beartype/beartype-0.22.9.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/beartype/beartype-0.22.9-py3-none-any.whl" },
 ]
 
 [[package]]
@@ -282,6 +353,50 @@ wheels = [
 [package.optional-dependencies]
 css = [
     { name = "tinycss2" },
+]
+
+[[package]]
+name = "cachetools"
+version = "7.1.7"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/cachetools/cachetools-7.1.7.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/cachetools/cachetools-7.1.7-py3-none-any.whl" },
+]
+
+[[package]]
+name = "caio"
+version = "0.12.2"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/caio/caio-0.12.2.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/caio/caio-0.12.2-cp311-cp311-macosx_10_9_universal2.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/caio/caio-0.12.2-cp311-cp311-manylinux_2_34_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/caio/caio-0.12.2-cp311-cp311-manylinux_2_34_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/caio/caio-0.12.2-cp311-cp311-musllinux_1_2_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/caio/caio-0.12.2-cp311-cp311-musllinux_1_2_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/caio/caio-0.12.2-cp312-cp312-macosx_10_13_universal2.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/caio/caio-0.12.2-cp312-cp312-manylinux_2_34_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/caio/caio-0.12.2-cp312-cp312-manylinux_2_34_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/caio/caio-0.12.2-cp312-cp312-musllinux_1_2_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/caio/caio-0.12.2-cp312-cp312-musllinux_1_2_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/caio/caio-0.12.2-cp313-cp313-macosx_10_13_universal2.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/caio/caio-0.12.2-cp313-cp313-manylinux_2_34_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/caio/caio-0.12.2-cp313-cp313-manylinux_2_34_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/caio/caio-0.12.2-cp313-cp313-musllinux_1_2_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/caio/caio-0.12.2-cp313-cp313-musllinux_1_2_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/caio/caio-0.12.2-cp313-cp313t-macosx_11_0_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/caio/caio-0.12.2-cp314-cp314-macosx_26_0_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/caio/caio-0.12.2-cp314-cp314-manylinux_2_34_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/caio/caio-0.12.2-cp314-cp314-manylinux_2_34_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/caio/caio-0.12.2-cp314-cp314-musllinux_1_2_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/caio/caio-0.12.2-cp314-cp314-musllinux_1_2_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/caio/caio-0.12.2-cp314-cp314t-macosx_11_0_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/caio/caio-0.12.2-cp314-cp314t-manylinux_2_34_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/caio/caio-0.12.2-cp314-cp314t-manylinux_2_34_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/caio/caio-0.12.2-cp314-cp314t-musllinux_1_2_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/caio/caio-0.12.2-cp314-cp314t-musllinux_1_2_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/caio/caio-0.12.2-py3-none-any.whl" },
 ]
 
 [[package]]
@@ -453,6 +568,18 @@ wheels = [
 ]
 
 [[package]]
+name = "click"
+version = "8.4.2"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+dependencies = [
+    { name = "colorama", marker = "sys_platform == 'win32'" },
+]
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/click/click-8.4.2.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/click/click-8.4.2-py3-none-any.whl" },
+]
+
+[[package]]
 name = "colorama"
 version = "0.4.6"
 source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
@@ -468,6 +595,62 @@ source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
 sdist = { url = "https://mirror2.chabokan.net/pypi/packages/comm/comm-0.2.3.tar.gz" }
 wheels = [
     { url = "https://mirror2.chabokan.net/pypi/packages/comm/comm-0.2.3-py3-none-any.whl" },
+]
+
+[[package]]
+name = "cryptography"
+version = "49.0.0"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+dependencies = [
+    { name = "cffi", marker = "platform_python_implementation != 'PyPy'" },
+]
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/cryptography/cryptography-49.0.0.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/cryptography/cryptography-49.0.0-cp311-abi3-macosx_11_0_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/cryptography/cryptography-49.0.0-cp311-abi3-manylinux2014_aarch64.manylinux_2_17_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/cryptography/cryptography-49.0.0-cp311-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/cryptography/cryptography-49.0.0-cp311-abi3-manylinux_2_28_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/cryptography/cryptography-49.0.0-cp311-abi3-manylinux_2_28_ppc64le.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/cryptography/cryptography-49.0.0-cp311-abi3-manylinux_2_28_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/cryptography/cryptography-49.0.0-cp311-abi3-manylinux_2_31_armv7l.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/cryptography/cryptography-49.0.0-cp311-abi3-manylinux_2_34_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/cryptography/cryptography-49.0.0-cp311-abi3-manylinux_2_34_ppc64le.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/cryptography/cryptography-49.0.0-cp311-abi3-manylinux_2_34_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/cryptography/cryptography-49.0.0-cp311-abi3-musllinux_1_2_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/cryptography/cryptography-49.0.0-cp311-abi3-musllinux_1_2_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/cryptography/cryptography-49.0.0-cp311-abi3-win_amd64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/cryptography/cryptography-49.0.0-cp314-cp314t-macosx_11_0_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/cryptography/cryptography-49.0.0-cp314-cp314t-manylinux2014_aarch64.manylinux_2_17_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/cryptography/cryptography-49.0.0-cp314-cp314t-manylinux2014_x86_64.manylinux_2_17_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/cryptography/cryptography-49.0.0-cp314-cp314t-manylinux_2_28_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/cryptography/cryptography-49.0.0-cp314-cp314t-manylinux_2_28_ppc64le.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/cryptography/cryptography-49.0.0-cp314-cp314t-manylinux_2_28_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/cryptography/cryptography-49.0.0-cp314-cp314t-manylinux_2_31_armv7l.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/cryptography/cryptography-49.0.0-cp314-cp314t-manylinux_2_34_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/cryptography/cryptography-49.0.0-cp314-cp314t-manylinux_2_34_ppc64le.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/cryptography/cryptography-49.0.0-cp314-cp314t-manylinux_2_34_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/cryptography/cryptography-49.0.0-cp314-cp314t-musllinux_1_2_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/cryptography/cryptography-49.0.0-cp314-cp314t-musllinux_1_2_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/cryptography/cryptography-49.0.0-cp314-cp314t-win_amd64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/cryptography/cryptography-49.0.0-cp39-abi3-macosx_11_0_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/cryptography/cryptography-49.0.0-cp39-abi3-manylinux2014_aarch64.manylinux_2_17_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/cryptography/cryptography-49.0.0-cp39-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/cryptography/cryptography-49.0.0-cp39-abi3-manylinux_2_28_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/cryptography/cryptography-49.0.0-cp39-abi3-manylinux_2_28_ppc64le.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/cryptography/cryptography-49.0.0-cp39-abi3-manylinux_2_28_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/cryptography/cryptography-49.0.0-cp39-abi3-manylinux_2_31_armv7l.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/cryptography/cryptography-49.0.0-cp39-abi3-manylinux_2_34_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/cryptography/cryptography-49.0.0-cp39-abi3-manylinux_2_34_ppc64le.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/cryptography/cryptography-49.0.0-cp39-abi3-manylinux_2_34_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/cryptography/cryptography-49.0.0-cp39-abi3-musllinux_1_2_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/cryptography/cryptography-49.0.0-cp39-abi3-musllinux_1_2_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/cryptography/cryptography-49.0.0-cp39-abi3-win_amd64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/cryptography/cryptography-49.0.0-pp311-pypy311_pp73-macosx_11_0_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/cryptography/cryptography-49.0.0-pp311-pypy311_pp73-manylinux_2_28_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/cryptography/cryptography-49.0.0-pp311-pypy311_pp73-manylinux_2_28_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/cryptography/cryptography-49.0.0-pp311-pypy311_pp73-manylinux_2_34_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/cryptography/cryptography-49.0.0-pp311-pypy311_pp73-manylinux_2_34_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/cryptography/cryptography-49.0.0-pp311-pypy311_pp73-win_amd64.whl" },
 ]
 
 [[package]]
@@ -514,12 +697,30 @@ wheels = [
 ]
 
 [[package]]
+name = "distro"
+version = "1.9.0"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/distro/distro-1.9.0.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/distro/distro-1.9.0-py3-none-any.whl" },
+]
+
+[[package]]
 name = "dnspython"
 version = "2.8.0"
 source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
 sdist = { url = "https://mirror2.chabokan.net/pypi/packages/dnspython/dnspython-2.8.0.tar.gz" }
 wheels = [
     { url = "https://mirror2.chabokan.net/pypi/packages/dnspython/dnspython-2.8.0-py3-none-any.whl" },
+]
+
+[[package]]
+name = "docstring-parser"
+version = "0.18.0"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/docstring-parser/docstring_parser-0.18.0.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/docstring-parser/docstring_parser-0.18.0-py3-none-any.whl" },
 ]
 
 [[package]]
@@ -551,6 +752,18 @@ wheels = [
 ]
 
 [[package]]
+name = "exceptiongroup"
+version = "1.3.1"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+dependencies = [
+    { name = "typing-extensions", marker = "python_full_version < '3.13'" },
+]
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/exceptiongroup/exceptiongroup-1.3.1.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/exceptiongroup/exceptiongroup-1.3.1-py3-none-any.whl" },
+]
+
+[[package]]
 name = "executing"
 version = "2.2.1"
 source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
@@ -566,6 +779,34 @@ source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
 sdist = { url = "https://mirror2.chabokan.net/pypi/packages/fastjsonschema/fastjsonschema-2.21.2.tar.gz" }
 wheels = [
     { url = "https://mirror2.chabokan.net/pypi/packages/fastjsonschema/fastjsonschema-2.21.2-py3-none-any.whl" },
+]
+
+[[package]]
+name = "fastmcp-slim"
+version = "3.4.6"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+dependencies = [
+    { name = "platformdirs" },
+    { name = "pydantic", extra = ["email"] },
+    { name = "pydantic-settings" },
+    { name = "python-dotenv" },
+    { name = "rich" },
+    { name = "typing-extensions" },
+]
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/fastmcp-slim/fastmcp_slim-3.4.6.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/fastmcp-slim/fastmcp_slim-3.4.6-py3-none-any.whl" },
+]
+
+[package.optional-dependencies]
+client = [
+    { name = "authlib" },
+    { name = "exceptiongroup" },
+    { name = "httpx" },
+    { name = "mcp" },
+    { name = "opentelemetry-api" },
+    { name = "py-key-value-aio", extra = ["filetree", "keyring", "memory"] },
+    { name = "starlette" },
 ]
 
 [[package]]
@@ -683,6 +924,79 @@ wheels = [
 ]
 
 [[package]]
+name = "genai-prices"
+version = "0.1.1"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+dependencies = [
+    { name = "httpx2" },
+    { name = "pydantic" },
+]
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/genai-prices/genai_prices-0.1.1.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/genai-prices/genai_prices-0.1.1-py3-none-any.whl" },
+]
+
+[[package]]
+name = "google-auth"
+version = "2.56.2"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+dependencies = [
+    { name = "cryptography" },
+    { name = "pyasn1-modules" },
+]
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/google-auth/google_auth-2.56.2.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/google-auth/google_auth-2.56.2-py3-none-any.whl" },
+]
+
+[package.optional-dependencies]
+requests = [
+    { name = "requests" },
+]
+
+[[package]]
+name = "google-genai"
+version = "2.16.0"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+dependencies = [
+    { name = "anyio" },
+    { name = "distro" },
+    { name = "google-auth", extra = ["requests"] },
+    { name = "httpx" },
+    { name = "pydantic" },
+    { name = "requests" },
+    { name = "sniffio" },
+    { name = "tenacity" },
+    { name = "typing-extensions" },
+    { name = "websockets" },
+]
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/google-genai/google_genai-2.16.0.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/google-genai/google_genai-2.16.0-py3-none-any.whl" },
+]
+
+[[package]]
+name = "googleapis-common-protos"
+version = "1.75.0"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+dependencies = [
+    { name = "protobuf" },
+]
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/googleapis-common-protos/googleapis_common_protos-1.75.0.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/googleapis-common-protos/googleapis_common_protos-1.75.0-py3-none-any.whl" },
+]
+
+[[package]]
+name = "griffelib"
+version = "2.1.0"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/griffelib/griffelib-2.1.0.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/griffelib/griffelib-2.1.0-py3-none-any.whl" },
+]
+
+[[package]]
 name = "h11"
 version = "0.16.0"
 source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
@@ -705,6 +1019,19 @@ wheels = [
 ]
 
 [[package]]
+name = "httpcore2"
+version = "2.3.0"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+dependencies = [
+    { name = "h11" },
+    { name = "truststore" },
+]
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/httpcore2/httpcore2-2.3.0.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/httpcore2/httpcore2-2.3.0-py3-none-any.whl" },
+]
+
+[[package]]
 name = "httpx"
 version = "0.28.1"
 source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
@@ -720,12 +1047,48 @@ wheels = [
 ]
 
 [[package]]
+name = "httpx-sse"
+version = "0.4.3"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/httpx-sse/httpx_sse-0.4.3.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/httpx-sse/httpx_sse-0.4.3-py3-none-any.whl" },
+]
+
+[[package]]
+name = "httpx2"
+version = "2.3.0"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+dependencies = [
+    { name = "anyio" },
+    { name = "httpcore2" },
+    { name = "idna" },
+    { name = "truststore" },
+]
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/httpx2/httpx2-2.3.0.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/httpx2/httpx2-2.3.0-py3-none-any.whl" },
+]
+
+[[package]]
 name = "idna"
 version = "3.11"
 source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
 sdist = { url = "https://mirror2.chabokan.net/pypi/packages/idna/idna-3.11.tar.gz" }
 wheels = [
     { url = "https://mirror2.chabokan.net/pypi/packages/idna/idna-3.11-py3-none-any.whl" },
+]
+
+[[package]]
+name = "importlib-metadata"
+version = "9.0.0"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+dependencies = [
+    { name = "zipp", marker = "python_full_version < '3.12'" },
+]
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/importlib-metadata/importlib_metadata-9.0.0.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/importlib-metadata/importlib_metadata-9.0.0-py3-none-any.whl" },
 ]
 
 [[package]]
@@ -845,6 +1208,42 @@ wheels = [
 ]
 
 [[package]]
+name = "jaraco-classes"
+version = "3.4.0"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+dependencies = [
+    { name = "more-itertools" },
+]
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/jaraco-classes/jaraco.classes-3.4.0.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/jaraco-classes/jaraco.classes-3.4.0-py3-none-any.whl" },
+]
+
+[[package]]
+name = "jaraco-context"
+version = "6.1.2"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+dependencies = [
+    { name = "backports-tarfile", marker = "python_full_version < '3.12'" },
+]
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/jaraco-context/jaraco_context-6.1.2.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/jaraco-context/jaraco_context-6.1.2-py3-none-any.whl" },
+]
+
+[[package]]
+name = "jaraco-functools"
+version = "4.6.0"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+dependencies = [
+    { name = "more-itertools" },
+]
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/jaraco-functools/jaraco_functools-4.6.0.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/jaraco-functools/jaraco_functools-4.6.0-py3-none-any.whl" },
+]
+
+[[package]]
 name = "jedi"
 version = "0.19.2"
 source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
@@ -857,6 +1256,15 @@ wheels = [
 ]
 
 [[package]]
+name = "jeepney"
+version = "0.9.0"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/jeepney/jeepney-0.9.0.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/jeepney/jeepney-0.9.0-py3-none-any.whl" },
+]
+
+[[package]]
 name = "jinja2"
 version = "3.1.6"
 source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
@@ -866,6 +1274,104 @@ dependencies = [
 sdist = { url = "https://mirror2.chabokan.net/pypi/packages/jinja2/jinja2-3.1.6.tar.gz" }
 wheels = [
     { url = "https://mirror2.chabokan.net/pypi/packages/jinja2/jinja2-3.1.6-py3-none-any.whl" },
+]
+
+[[package]]
+name = "jiter"
+version = "0.16.0"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp311-cp311-macosx_10_12_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp311-cp311-macosx_11_0_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp311-cp311-manylinux_2_17_armv7l.manylinux2014_armv7l.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp311-cp311-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp311-cp311-manylinux_2_17_s390x.manylinux2014_s390x.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp311-cp311-manylinux_2_31_riscv64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp311-cp311-manylinux_2_5_i686.manylinux1_i686.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp311-cp311-musllinux_1_1_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp311-cp311-musllinux_1_1_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp311-cp311-win32.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp311-cp311-win_amd64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp311-cp311-win_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp312-cp312-macosx_10_12_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp312-cp312-macosx_11_0_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp312-cp312-manylinux_2_17_armv7l.manylinux2014_armv7l.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp312-cp312-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp312-cp312-manylinux_2_17_s390x.manylinux2014_s390x.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp312-cp312-manylinux_2_31_riscv64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp312-cp312-manylinux_2_5_i686.manylinux1_i686.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp312-cp312-musllinux_1_1_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp312-cp312-musllinux_1_1_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp312-cp312-win32.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp312-cp312-win_amd64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp312-cp312-win_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp313-cp313-macosx_10_12_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp313-cp313-macosx_11_0_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp313-cp313-manylinux_2_17_aarch64.manylinux2014_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp313-cp313-manylinux_2_17_armv7l.manylinux2014_armv7l.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp313-cp313-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp313-cp313-manylinux_2_17_s390x.manylinux2014_s390x.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp313-cp313-manylinux_2_31_riscv64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp313-cp313-manylinux_2_5_i686.manylinux1_i686.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp313-cp313-musllinux_1_1_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp313-cp313-musllinux_1_1_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp313-cp313-win32.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp313-cp313-win_amd64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp313-cp313-win_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp314-cp314-macosx_10_12_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp314-cp314-macosx_11_0_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp314-cp314-manylinux_2_17_aarch64.manylinux2014_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp314-cp314-manylinux_2_17_armv7l.manylinux2014_armv7l.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp314-cp314-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp314-cp314-manylinux_2_17_s390x.manylinux2014_s390x.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp314-cp314-manylinux_2_17_x86_64.manylinux2014_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp314-cp314-manylinux_2_31_riscv64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp314-cp314-manylinux_2_5_i686.manylinux1_i686.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp314-cp314-musllinux_1_1_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp314-cp314-musllinux_1_1_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp314-cp314-win32.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp314-cp314-win_amd64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp314-cp314-win_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp314-cp314t-macosx_11_0_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp314-cp314t-manylinux_2_17_aarch64.manylinux2014_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp314-cp314t-manylinux_2_17_armv7l.manylinux2014_armv7l.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp314-cp314t-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp314-cp314t-manylinux_2_17_s390x.manylinux2014_s390x.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp314-cp314t-manylinux_2_17_x86_64.manylinux2014_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp314-cp314t-manylinux_2_31_riscv64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp314-cp314t-manylinux_2_5_i686.manylinux1_i686.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp314-cp314t-musllinux_1_1_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp314-cp314t-musllinux_1_1_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp314-cp314t-win32.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp314-cp314t-win_amd64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-cp314-cp314t-win_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-graalpy311-graalpy242_311_native-macosx_10_12_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-graalpy311-graalpy242_311_native-macosx_11_0_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-graalpy311-graalpy242_311_native-manylinux_2_17_aarch64.manylinux2014_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-graalpy311-graalpy242_311_native-manylinux_2_17_x86_64.manylinux2014_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-graalpy312-graalpy250_312_native-macosx_10_12_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-graalpy312-graalpy250_312_native-macosx_11_0_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-graalpy312-graalpy250_312_native-manylinux_2_17_aarch64.manylinux2014_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/jiter/jiter-0.16.0-graalpy312-graalpy250_312_native-manylinux_2_17_x86_64.manylinux2014_x86_64.whl" },
+]
+
+[[package]]
+name = "joserfc"
+version = "1.7.4"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+dependencies = [
+    { name = "cryptography" },
+]
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/joserfc/joserfc-1.7.4.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/joserfc/joserfc-1.7.4-py3-none-any.whl" },
 ]
 
 [[package]]
@@ -1127,12 +1633,74 @@ wheels = [
 ]
 
 [[package]]
+name = "keyring"
+version = "25.7.0"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+dependencies = [
+    { name = "importlib-metadata", marker = "python_full_version < '3.12'" },
+    { name = "jaraco-classes" },
+    { name = "jaraco-context" },
+    { name = "jaraco-functools" },
+    { name = "jeepney", marker = "sys_platform == 'linux'" },
+    { name = "pywin32-ctypes", marker = "sys_platform == 'win32'" },
+    { name = "secretstorage", marker = "sys_platform == 'linux'" },
+]
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/keyring/keyring-25.7.0.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/keyring/keyring-25.7.0-py3-none-any.whl" },
+]
+
+[[package]]
 name = "lark"
 version = "1.3.1"
 source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
 sdist = { url = "https://mirror2.chabokan.net/pypi/packages/lark/lark-1.3.1.tar.gz" }
 wheels = [
     { url = "https://mirror2.chabokan.net/pypi/packages/lark/lark-1.3.1-py3-none-any.whl" },
+]
+
+[[package]]
+name = "logfire"
+version = "4.39.0"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+dependencies = [
+    { name = "executing" },
+    { name = "opentelemetry-exporter-otlp-proto-http" },
+    { name = "opentelemetry-instrumentation" },
+    { name = "opentelemetry-sdk" },
+    { name = "protobuf" },
+    { name = "rich" },
+    { name = "typing-extensions" },
+]
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/logfire/logfire-4.39.0.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/logfire/logfire-4.39.0-py3-none-any.whl" },
+]
+
+[package.optional-dependencies]
+httpx = [
+    { name = "opentelemetry-instrumentation-httpx" },
+]
+
+[[package]]
+name = "logfire-api"
+version = "4.40.0"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/logfire-api/logfire_api-4.40.0.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/logfire-api/logfire_api-4.40.0-py3-none-any.whl" },
+]
+
+[[package]]
+name = "markdown-it-py"
+version = "4.2.0"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+dependencies = [
+    { name = "mdurl" },
+]
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/markdown-it-py/markdown_it_py-4.2.0.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/markdown-it-py/markdown_it_py-4.2.0-py3-none-any.whl" },
 ]
 
 [[package]]
@@ -1222,12 +1790,55 @@ wheels = [
 ]
 
 [[package]]
+name = "mcp"
+version = "1.29.0"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+dependencies = [
+    { name = "anyio" },
+    { name = "httpx" },
+    { name = "httpx-sse" },
+    { name = "jsonschema" },
+    { name = "pydantic" },
+    { name = "pydantic-settings" },
+    { name = "pyjwt", extra = ["crypto"] },
+    { name = "python-multipart" },
+    { name = "pywin32", marker = "sys_platform == 'win32'" },
+    { name = "sse-starlette" },
+    { name = "starlette" },
+    { name = "typing-extensions" },
+    { name = "typing-inspection" },
+    { name = "uvicorn", marker = "sys_platform != 'emscripten'" },
+]
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/mcp/mcp-1.29.0.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/mcp/mcp-1.29.0-py3-none-any.whl" },
+]
+
+[[package]]
+name = "mdurl"
+version = "0.1.2"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/mdurl/mdurl-0.1.2.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/mdurl/mdurl-0.1.2-py3-none-any.whl" },
+]
+
+[[package]]
 name = "mistune"
 version = "3.2.0"
 source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
 sdist = { url = "https://mirror2.chabokan.net/pypi/packages/mistune/mistune-3.2.0.tar.gz" }
 wheels = [
     { url = "https://mirror2.chabokan.net/pypi/packages/mistune/mistune-3.2.0-py3-none-any.whl" },
+]
+
+[[package]]
+name = "more-itertools"
+version = "11.1.0"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/more-itertools/more_itertools-11.1.0.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/more-itertools/more_itertools-11.1.0-py3-none-any.whl" },
 ]
 
 [[package]]
@@ -1440,6 +2051,146 @@ wheels = [
 ]
 
 [[package]]
+name = "openai"
+version = "2.50.0"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+dependencies = [
+    { name = "anyio" },
+    { name = "distro" },
+    { name = "httpx" },
+    { name = "jiter" },
+    { name = "pydantic" },
+    { name = "sniffio" },
+    { name = "tqdm" },
+    { name = "typing-extensions" },
+]
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/openai/openai-2.50.0.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/openai/openai-2.50.0-py3-none-any.whl" },
+]
+
+[[package]]
+name = "opentelemetry-api"
+version = "1.44.0"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+dependencies = [
+    { name = "typing-extensions" },
+]
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/opentelemetry-api/opentelemetry_api-1.44.0.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/opentelemetry-api/opentelemetry_api-1.44.0-py3-none-any.whl" },
+]
+
+[[package]]
+name = "opentelemetry-exporter-otlp-proto-common"
+version = "1.44.0"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+dependencies = [
+    { name = "opentelemetry-proto" },
+]
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/opentelemetry-exporter-otlp-proto-common/opentelemetry_exporter_otlp_proto_common-1.44.0.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/opentelemetry-exporter-otlp-proto-common/opentelemetry_exporter_otlp_proto_common-1.44.0-py3-none-any.whl" },
+]
+
+[[package]]
+name = "opentelemetry-exporter-otlp-proto-http"
+version = "1.44.0"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+dependencies = [
+    { name = "googleapis-common-protos" },
+    { name = "opentelemetry-api" },
+    { name = "opentelemetry-exporter-otlp-proto-common" },
+    { name = "opentelemetry-proto" },
+    { name = "opentelemetry-sdk" },
+    { name = "requests" },
+    { name = "typing-extensions" },
+]
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/opentelemetry-exporter-otlp-proto-http/opentelemetry_exporter_otlp_proto_http-1.44.0.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/opentelemetry-exporter-otlp-proto-http/opentelemetry_exporter_otlp_proto_http-1.44.0-py3-none-any.whl" },
+]
+
+[[package]]
+name = "opentelemetry-instrumentation"
+version = "0.65b0"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+dependencies = [
+    { name = "opentelemetry-api" },
+    { name = "opentelemetry-semantic-conventions" },
+    { name = "packaging" },
+    { name = "wrapt" },
+]
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/opentelemetry-instrumentation/opentelemetry_instrumentation-0.65b0.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/opentelemetry-instrumentation/opentelemetry_instrumentation-0.65b0-py3-none-any.whl" },
+]
+
+[[package]]
+name = "opentelemetry-instrumentation-httpx"
+version = "0.65b0"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+dependencies = [
+    { name = "opentelemetry-api" },
+    { name = "opentelemetry-instrumentation" },
+    { name = "opentelemetry-semantic-conventions" },
+    { name = "opentelemetry-util-http" },
+    { name = "wrapt" },
+]
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/opentelemetry-instrumentation-httpx/opentelemetry_instrumentation_httpx-0.65b0.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/opentelemetry-instrumentation-httpx/opentelemetry_instrumentation_httpx-0.65b0-py3-none-any.whl" },
+]
+
+[[package]]
+name = "opentelemetry-proto"
+version = "1.44.0"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+dependencies = [
+    { name = "protobuf" },
+]
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/opentelemetry-proto/opentelemetry_proto-1.44.0.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/opentelemetry-proto/opentelemetry_proto-1.44.0-py3-none-any.whl" },
+]
+
+[[package]]
+name = "opentelemetry-sdk"
+version = "1.44.0"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+dependencies = [
+    { name = "opentelemetry-api" },
+    { name = "opentelemetry-semantic-conventions" },
+    { name = "typing-extensions" },
+]
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/opentelemetry-sdk/opentelemetry_sdk-1.44.0.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/opentelemetry-sdk/opentelemetry_sdk-1.44.0-py3-none-any.whl" },
+]
+
+[[package]]
+name = "opentelemetry-semantic-conventions"
+version = "0.65b0"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+dependencies = [
+    { name = "opentelemetry-api" },
+    { name = "typing-extensions" },
+]
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/opentelemetry-semantic-conventions/opentelemetry_semantic_conventions-0.65b0.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/opentelemetry-semantic-conventions/opentelemetry_semantic_conventions-0.65b0-py3-none-any.whl" },
+]
+
+[[package]]
+name = "opentelemetry-util-http"
+version = "0.65b0"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/opentelemetry-util-http/opentelemetry_util_http-0.65b0.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/opentelemetry-util-http/opentelemetry_util_http-0.65b0-py3-none-any.whl" },
+]
+
+[[package]]
 name = "overrides"
 version = "7.7.0"
 source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
@@ -1617,6 +2368,21 @@ wheels = [
 ]
 
 [[package]]
+name = "protobuf"
+version = "7.35.1"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/protobuf/protobuf-7.35.1.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/protobuf/protobuf-7.35.1-cp310-abi3-macosx_10_9_universal2.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/protobuf/protobuf-7.35.1-cp310-abi3-manylinux2014_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/protobuf/protobuf-7.35.1-cp310-abi3-manylinux2014_s390x.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/protobuf/protobuf-7.35.1-cp310-abi3-manylinux2014_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/protobuf/protobuf-7.35.1-cp310-abi3-win32.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/protobuf/protobuf-7.35.1-cp310-abi3-win_amd64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/protobuf/protobuf-7.35.1-py3-none-any.whl" },
+]
+
+[[package]]
 name = "psutil"
 version = "7.2.2"
 source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
@@ -1663,6 +2429,52 @@ wheels = [
 ]
 
 [[package]]
+name = "py-key-value-aio"
+version = "0.4.5"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+dependencies = [
+    { name = "beartype" },
+    { name = "typing-extensions" },
+]
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/py-key-value-aio/py_key_value_aio-0.4.5.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/py-key-value-aio/py_key_value_aio-0.4.5-py3-none-any.whl" },
+]
+
+[package.optional-dependencies]
+filetree = [
+    { name = "aiofile" },
+    { name = "anyio" },
+]
+keyring = [
+    { name = "keyring" },
+]
+memory = [
+    { name = "cachetools" },
+]
+
+[[package]]
+name = "pyasn1"
+version = "0.6.4"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/pyasn1/pyasn1-0.6.4.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/pyasn1/pyasn1-0.6.4-py3-none-any.whl" },
+]
+
+[[package]]
+name = "pyasn1-modules"
+version = "0.4.2"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+dependencies = [
+    { name = "pyasn1" },
+]
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/pyasn1-modules/pyasn1_modules-0.4.2.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/pyasn1-modules/pyasn1_modules-0.4.2-py3-none-any.whl" },
+]
+
+[[package]]
 name = "pycparser"
 version = "3.0"
 source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
@@ -1689,6 +2501,72 @@ wheels = [
 [package.optional-dependencies]
 email = [
     { name = "email-validator" },
+]
+
+[[package]]
+name = "pydantic-ai"
+version = "2.18.0"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+dependencies = [
+    { name = "pydantic-ai-slim", extra = ["anthropic", "cli", "evals", "google", "logfire", "mcp", "openai", "retries", "web"] },
+]
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/pydantic-ai/pydantic_ai-2.18.0.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/pydantic-ai/pydantic_ai-2.18.0-py3-none-any.whl" },
+]
+
+[[package]]
+name = "pydantic-ai-slim"
+version = "2.18.0"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+dependencies = [
+    { name = "genai-prices" },
+    { name = "griffelib" },
+    { name = "httpx" },
+    { name = "opentelemetry-api" },
+    { name = "pydantic" },
+    { name = "pydantic-graph" },
+    { name = "typing-inspection" },
+]
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/pydantic-ai-slim/pydantic_ai_slim-2.18.0.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/pydantic-ai-slim/pydantic_ai_slim-2.18.0-py3-none-any.whl" },
+]
+
+[package.optional-dependencies]
+anthropic = [
+    { name = "anthropic" },
+]
+cli = [
+    { name = "argcomplete" },
+    { name = "prompt-toolkit" },
+    { name = "pyperclip" },
+    { name = "pyyaml" },
+    { name = "rich" },
+]
+evals = [
+    { name = "pydantic-evals" },
+]
+google = [
+    { name = "google-genai" },
+]
+logfire = [
+    { name = "logfire", extra = ["httpx"] },
+]
+mcp = [
+    { name = "fastmcp-slim", extra = ["client"] },
+]
+openai = [
+    { name = "openai" },
+    { name = "tiktoken" },
+]
+retries = [
+    { name = "tenacity" },
+]
+web = [
+    { name = "httpx" },
+    { name = "starlette" },
+    { name = "uvicorn" },
 ]
 
 [[package]]
@@ -1798,6 +2676,7 @@ dependencies = [
     { name = "ipykernel" },
     { name = "jupyter" },
     { name = "pydantic", extra = ["email"] },
+    { name = "pydantic-ai" },
 ]
 
 [package.dev-dependencies]
@@ -1814,6 +2693,7 @@ requires-dist = [
     { name = "ipykernel", specifier = ">=7.2.0" },
     { name = "jupyter", specifier = ">=1.1.1" },
     { name = "pydantic", extras = ["email"], specifier = ">=2.12.5" },
+    { name = "pydantic-ai", specifier = ">=2.18.0" },
 ]
 
 [package.metadata.requires-dev]
@@ -1824,12 +2704,81 @@ dev = [
 ]
 
 [[package]]
+name = "pydantic-evals"
+version = "2.18.0"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+dependencies = [
+    { name = "anyio" },
+    { name = "logfire-api" },
+    { name = "pydantic" },
+    { name = "pydantic-ai-slim" },
+    { name = "pyyaml" },
+    { name = "rich" },
+]
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/pydantic-evals/pydantic_evals-2.18.0.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/pydantic-evals/pydantic_evals-2.18.0-py3-none-any.whl" },
+]
+
+[[package]]
+name = "pydantic-graph"
+version = "2.18.0"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+dependencies = [
+    { name = "httpx" },
+    { name = "logfire-api" },
+    { name = "pydantic" },
+    { name = "typing-inspection" },
+]
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/pydantic-graph/pydantic_graph-2.18.0.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/pydantic-graph/pydantic_graph-2.18.0-py3-none-any.whl" },
+]
+
+[[package]]
+name = "pydantic-settings"
+version = "2.14.2"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+dependencies = [
+    { name = "pydantic" },
+    { name = "python-dotenv" },
+    { name = "typing-inspection" },
+]
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/pydantic-settings/pydantic_settings-2.14.2.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/pydantic-settings/pydantic_settings-2.14.2-py3-none-any.whl" },
+]
+
+[[package]]
 name = "pygments"
 version = "2.20.0"
 source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
 sdist = { url = "https://mirror2.chabokan.net/pypi/packages/pygments/pygments-2.20.0.tar.gz" }
 wheels = [
     { url = "https://mirror2.chabokan.net/pypi/packages/pygments/pygments-2.20.0-py3-none-any.whl" },
+]
+
+[[package]]
+name = "pyjwt"
+version = "2.13.0"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/pyjwt/pyjwt-2.13.0.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/pyjwt/pyjwt-2.13.0-py3-none-any.whl" },
+]
+
+[package.optional-dependencies]
+crypto = [
+    { name = "cryptography" },
+]
+
+[[package]]
+name = "pyperclip"
+version = "1.11.0"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/pyperclip/pyperclip-1.11.0.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/pyperclip/pyperclip-1.11.0-py3-none-any.whl" },
 ]
 
 [[package]]
@@ -1845,12 +2794,61 @@ wheels = [
 ]
 
 [[package]]
+name = "python-dotenv"
+version = "1.2.2"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/python-dotenv/python_dotenv-1.2.2.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/python-dotenv/python_dotenv-1.2.2-py3-none-any.whl" },
+]
+
+[[package]]
 name = "python-json-logger"
 version = "4.1.0"
 source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
 sdist = { url = "https://mirror2.chabokan.net/pypi/packages/python-json-logger/python_json_logger-4.1.0.tar.gz" }
 wheels = [
     { url = "https://mirror2.chabokan.net/pypi/packages/python-json-logger/python_json_logger-4.1.0-py3-none-any.whl" },
+]
+
+[[package]]
+name = "python-multipart"
+version = "0.0.32"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/python-multipart/python_multipart-0.0.32.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/python-multipart/python_multipart-0.0.32-py3-none-any.whl" },
+]
+
+[[package]]
+name = "pywin32"
+version = "312"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/pywin32/pywin32-312-cp311-cp311-win32.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/pywin32/pywin32-312-cp311-cp311-win_amd64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/pywin32/pywin32-312-cp311-cp311-win_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/pywin32/pywin32-312-cp312-cp312-win32.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/pywin32/pywin32-312-cp312-cp312-win_amd64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/pywin32/pywin32-312-cp312-cp312-win_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/pywin32/pywin32-312-cp313-cp313-win32.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/pywin32/pywin32-312-cp313-cp313-win_amd64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/pywin32/pywin32-312-cp313-cp313-win_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/pywin32/pywin32-312-cp314-cp314-win32.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/pywin32/pywin32-312-cp314-cp314-win_amd64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/pywin32/pywin32-312-cp314-cp314-win_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/pywin32/pywin32-312-cp315-cp315-win32.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/pywin32/pywin32-312-cp315-cp315-win_amd64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/pywin32/pywin32-312-cp315-cp315-win_arm64.whl" },
+]
+
+[[package]]
+name = "pywin32-ctypes"
+version = "0.2.3"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/pywin32-ctypes/pywin32-ctypes-0.2.3.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/pywin32-ctypes/pywin32_ctypes-0.2.3-py3-none-any.whl" },
 ]
 
 [[package]]
@@ -2001,6 +2999,110 @@ wheels = [
 ]
 
 [[package]]
+name = "regex"
+version = "2026.7.19"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp311-cp311-macosx_10_9_universal2.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp311-cp311-macosx_10_9_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp311-cp311-macosx_11_0_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp311-cp311-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp311-cp311-manylinux2014_ppc64le.manylinux_2_17_ppc64le.manylinux_2_28_ppc64le.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp311-cp311-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp311-cp311-manylinux_2_31_riscv64.manylinux_2_39_riscv64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp311-cp311-musllinux_1_2_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp311-cp311-musllinux_1_2_ppc64le.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp311-cp311-musllinux_1_2_riscv64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp311-cp311-musllinux_1_2_s390x.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp311-cp311-musllinux_1_2_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp311-cp311-win32.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp311-cp311-win_amd64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp311-cp311-win_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp312-cp312-macosx_10_13_universal2.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp312-cp312-macosx_10_13_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp312-cp312-macosx_11_0_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp312-cp312-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp312-cp312-manylinux2014_ppc64le.manylinux_2_17_ppc64le.manylinux_2_28_ppc64le.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp312-cp312-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp312-cp312-manylinux_2_31_riscv64.manylinux_2_39_riscv64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp312-cp312-musllinux_1_2_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp312-cp312-musllinux_1_2_ppc64le.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp312-cp312-musllinux_1_2_riscv64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp312-cp312-musllinux_1_2_s390x.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp312-cp312-musllinux_1_2_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp312-cp312-win32.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp312-cp312-win_amd64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp312-cp312-win_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp313-cp313-macosx_10_13_universal2.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp313-cp313-macosx_10_13_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp313-cp313-macosx_11_0_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp313-cp313-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp313-cp313-manylinux2014_ppc64le.manylinux_2_17_ppc64le.manylinux_2_28_ppc64le.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp313-cp313-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp313-cp313-manylinux_2_31_riscv64.manylinux_2_39_riscv64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp313-cp313-musllinux_1_2_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp313-cp313-musllinux_1_2_ppc64le.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp313-cp313-musllinux_1_2_riscv64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp313-cp313-musllinux_1_2_s390x.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp313-cp313-musllinux_1_2_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp313-cp313-win32.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp313-cp313-win_amd64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp313-cp313-win_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp313-cp313t-macosx_10_13_universal2.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp313-cp313t-macosx_10_13_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp313-cp313t-macosx_11_0_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp313-cp313t-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp313-cp313t-manylinux2014_ppc64le.manylinux_2_17_ppc64le.manylinux_2_28_ppc64le.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp313-cp313t-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp313-cp313t-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp313-cp313t-manylinux_2_31_riscv64.manylinux_2_39_riscv64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp313-cp313t-musllinux_1_2_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp313-cp313t-musllinux_1_2_ppc64le.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp313-cp313t-musllinux_1_2_riscv64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp313-cp313t-musllinux_1_2_s390x.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp313-cp313t-musllinux_1_2_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp313-cp313t-win32.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp313-cp313t-win_amd64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp313-cp313t-win_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp314-cp314-macosx_10_13_universal2.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp314-cp314-macosx_10_13_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp314-cp314-macosx_11_0_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp314-cp314-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp314-cp314-manylinux2014_ppc64le.manylinux_2_17_ppc64le.manylinux_2_28_ppc64le.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp314-cp314-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp314-cp314-manylinux_2_31_riscv64.manylinux_2_39_riscv64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp314-cp314-musllinux_1_2_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp314-cp314-musllinux_1_2_ppc64le.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp314-cp314-musllinux_1_2_riscv64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp314-cp314-musllinux_1_2_s390x.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp314-cp314-musllinux_1_2_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp314-cp314-win32.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp314-cp314-win_amd64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp314-cp314-win_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp314-cp314t-macosx_10_13_universal2.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp314-cp314t-macosx_10_13_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp314-cp314t-macosx_11_0_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp314-cp314t-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp314-cp314t-manylinux2014_ppc64le.manylinux_2_17_ppc64le.manylinux_2_28_ppc64le.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp314-cp314t-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp314-cp314t-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp314-cp314t-manylinux_2_31_riscv64.manylinux_2_39_riscv64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp314-cp314t-musllinux_1_2_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp314-cp314t-musllinux_1_2_ppc64le.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp314-cp314t-musllinux_1_2_riscv64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp314-cp314t-musllinux_1_2_s390x.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp314-cp314t-musllinux_1_2_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp314-cp314t-win32.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp314-cp314t-win_amd64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/regex/regex-2026.7.19-cp314-cp314t-win_arm64.whl" },
+]
+
+[[package]]
 name = "requests"
 version = "2.33.1"
 source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
@@ -2046,6 +3148,19 @@ dependencies = [
 sdist = { url = "https://mirror2.chabokan.net/pypi/packages/rfc3987-syntax/rfc3987_syntax-1.1.0.tar.gz" }
 wheels = [
     { url = "https://mirror2.chabokan.net/pypi/packages/rfc3987-syntax/rfc3987_syntax-1.1.0-py3-none-any.whl" },
+]
+
+[[package]]
+name = "rich"
+version = "15.0.0"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+dependencies = [
+    { name = "markdown-it-py" },
+    { name = "pygments" },
+]
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/rich/rich-15.0.0.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/rich/rich-15.0.0-py3-none-any.whl" },
 ]
 
 [[package]]
@@ -2157,6 +3272,19 @@ wheels = [
 ]
 
 [[package]]
+name = "secretstorage"
+version = "3.5.0"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+dependencies = [
+    { name = "cryptography" },
+    { name = "jeepney" },
+]
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/secretstorage/secretstorage-3.5.0.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/secretstorage/secretstorage-3.5.0-py3-none-any.whl" },
+]
+
+[[package]]
 name = "send2trash"
 version = "2.1.0"
 source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
@@ -2184,12 +3312,34 @@ wheels = [
 ]
 
 [[package]]
+name = "sniffio"
+version = "1.3.1"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/sniffio/sniffio-1.3.1.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/sniffio/sniffio-1.3.1-py3-none-any.whl" },
+]
+
+[[package]]
 name = "soupsieve"
 version = "2.8.3"
 source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
 sdist = { url = "https://mirror2.chabokan.net/pypi/packages/soupsieve/soupsieve-2.8.3.tar.gz" }
 wheels = [
     { url = "https://mirror2.chabokan.net/pypi/packages/soupsieve/soupsieve-2.8.3-py3-none-any.whl" },
+]
+
+[[package]]
+name = "sse-starlette"
+version = "3.4.6"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+dependencies = [
+    { name = "anyio" },
+    { name = "starlette" },
+]
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/sse-starlette/sse_starlette-3.4.6.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/sse-starlette/sse_starlette-3.4.6-py3-none-any.whl" },
 ]
 
 [[package]]
@@ -2207,12 +3357,34 @@ wheels = [
 ]
 
 [[package]]
+name = "starlette"
+version = "1.3.1"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+dependencies = [
+    { name = "anyio" },
+    { name = "typing-extensions", marker = "python_full_version < '3.13'" },
+]
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/starlette/starlette-1.3.1.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/starlette/starlette-1.3.1-py3-none-any.whl" },
+]
+
+[[package]]
 name = "tabulate"
 version = "0.10.0"
 source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
 sdist = { url = "https://mirror2.chabokan.net/pypi/packages/tabulate/tabulate-0.10.0.tar.gz" }
 wheels = [
     { url = "https://mirror2.chabokan.net/pypi/packages/tabulate/tabulate-0.10.0-py3-none-any.whl" },
+]
+
+[[package]]
+name = "tenacity"
+version = "9.1.4"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/tenacity/tenacity-9.1.4.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/tenacity/tenacity-9.1.4-py3-none-any.whl" },
 ]
 
 [[package]]
@@ -2227,6 +3399,60 @@ dependencies = [
 sdist = { url = "https://mirror2.chabokan.net/pypi/packages/terminado/terminado-0.18.1.tar.gz" }
 wheels = [
     { url = "https://mirror2.chabokan.net/pypi/packages/terminado/terminado-0.18.1-py3-none-any.whl" },
+]
+
+[[package]]
+name = "tiktoken"
+version = "0.13.0"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+dependencies = [
+    { name = "regex" },
+    { name = "requests" },
+]
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/tiktoken/tiktoken-0.13.0.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/tiktoken/tiktoken-0.13.0-cp311-cp311-macosx_10_12_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/tiktoken/tiktoken-0.13.0-cp311-cp311-macosx_11_0_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/tiktoken/tiktoken-0.13.0-cp311-cp311-manylinux_2_28_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/tiktoken/tiktoken-0.13.0-cp311-cp311-manylinux_2_28_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/tiktoken/tiktoken-0.13.0-cp311-cp311-musllinux_1_2_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/tiktoken/tiktoken-0.13.0-cp311-cp311-musllinux_1_2_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/tiktoken/tiktoken-0.13.0-cp311-cp311-win_amd64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/tiktoken/tiktoken-0.13.0-cp312-cp312-macosx_10_13_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/tiktoken/tiktoken-0.13.0-cp312-cp312-macosx_11_0_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/tiktoken/tiktoken-0.13.0-cp312-cp312-manylinux_2_28_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/tiktoken/tiktoken-0.13.0-cp312-cp312-manylinux_2_28_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/tiktoken/tiktoken-0.13.0-cp312-cp312-musllinux_1_2_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/tiktoken/tiktoken-0.13.0-cp312-cp312-musllinux_1_2_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/tiktoken/tiktoken-0.13.0-cp312-cp312-win_amd64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/tiktoken/tiktoken-0.13.0-cp313-cp313-macosx_10_13_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/tiktoken/tiktoken-0.13.0-cp313-cp313-macosx_11_0_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/tiktoken/tiktoken-0.13.0-cp313-cp313-manylinux_2_28_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/tiktoken/tiktoken-0.13.0-cp313-cp313-manylinux_2_28_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/tiktoken/tiktoken-0.13.0-cp313-cp313-musllinux_1_2_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/tiktoken/tiktoken-0.13.0-cp313-cp313-musllinux_1_2_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/tiktoken/tiktoken-0.13.0-cp313-cp313-win_amd64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/tiktoken/tiktoken-0.13.0-cp313-cp313t-macosx_10_13_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/tiktoken/tiktoken-0.13.0-cp313-cp313t-macosx_11_0_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/tiktoken/tiktoken-0.13.0-cp313-cp313t-manylinux_2_28_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/tiktoken/tiktoken-0.13.0-cp313-cp313t-manylinux_2_28_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/tiktoken/tiktoken-0.13.0-cp313-cp313t-musllinux_1_2_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/tiktoken/tiktoken-0.13.0-cp313-cp313t-musllinux_1_2_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/tiktoken/tiktoken-0.13.0-cp313-cp313t-win_amd64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/tiktoken/tiktoken-0.13.0-cp314-cp314-macosx_10_13_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/tiktoken/tiktoken-0.13.0-cp314-cp314-macosx_11_0_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/tiktoken/tiktoken-0.13.0-cp314-cp314-manylinux_2_28_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/tiktoken/tiktoken-0.13.0-cp314-cp314-manylinux_2_28_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/tiktoken/tiktoken-0.13.0-cp314-cp314-musllinux_1_2_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/tiktoken/tiktoken-0.13.0-cp314-cp314-musllinux_1_2_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/tiktoken/tiktoken-0.13.0-cp314-cp314-win_amd64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/tiktoken/tiktoken-0.13.0-cp314-cp314t-macosx_10_13_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/tiktoken/tiktoken-0.13.0-cp314-cp314t-macosx_11_0_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/tiktoken/tiktoken-0.13.0-cp314-cp314t-manylinux_2_28_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/tiktoken/tiktoken-0.13.0-cp314-cp314t-manylinux_2_28_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/tiktoken/tiktoken-0.13.0-cp314-cp314t-musllinux_1_2_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/tiktoken/tiktoken-0.13.0-cp314-cp314t-musllinux_1_2_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/tiktoken/tiktoken-0.13.0-cp314-cp314t-win_amd64.whl" },
 ]
 
 [[package]]
@@ -2259,12 +3485,33 @@ wheels = [
 ]
 
 [[package]]
+name = "tqdm"
+version = "4.70.0"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+dependencies = [
+    { name = "colorama", marker = "sys_platform == 'win32'" },
+]
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/tqdm/tqdm-4.70.0.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/tqdm/tqdm-4.70.0-py3-none-any.whl" },
+]
+
+[[package]]
 name = "traitlets"
 version = "5.14.3"
 source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
 sdist = { url = "https://mirror2.chabokan.net/pypi/packages/traitlets/traitlets-5.14.3.tar.gz" }
 wheels = [
     { url = "https://mirror2.chabokan.net/pypi/packages/traitlets/traitlets-5.14.3-py3-none-any.whl" },
+]
+
+[[package]]
+name = "truststore"
+version = "0.10.4"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/truststore/truststore-0.10.4.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/truststore/truststore-0.10.4-py3-none-any.whl" },
 ]
 
 [[package]]
@@ -2316,6 +3563,19 @@ wheels = [
 ]
 
 [[package]]
+name = "uvicorn"
+version = "0.52.1"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+dependencies = [
+    { name = "click" },
+    { name = "h11" },
+]
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/uvicorn/uvicorn-0.52.1.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/uvicorn/uvicorn-0.52.1-py3-none-any.whl" },
+]
+
+[[package]]
 name = "wcwidth"
 version = "0.6.0"
 source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
@@ -2352,12 +3612,186 @@ wheels = [
 ]
 
 [[package]]
+name = "websockets"
+version = "16.1.1"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp311-cp311-macosx_10_9_universal2.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp311-cp311-macosx_10_9_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp311-cp311-macosx_11_0_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp311-cp311-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp311-cp311-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp311-cp311-manylinux2014_armv7l.manylinux_2_17_armv7l.manylinux_2_31_armv7l.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp311-cp311-manylinux2014_ppc64le.manylinux_2_17_ppc64le.manylinux_2_28_ppc64le.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp311-cp311-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp311-cp311-manylinux_2_31_riscv64.manylinux_2_39_riscv64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp311-cp311-musllinux_1_2_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp311-cp311-musllinux_1_2_armv7l.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp311-cp311-musllinux_1_2_ppc64le.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp311-cp311-musllinux_1_2_riscv64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp311-cp311-musllinux_1_2_s390x.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp311-cp311-musllinux_1_2_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp311-cp311-win32.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp311-cp311-win_amd64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp312-cp312-macosx_10_13_universal2.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp312-cp312-macosx_10_13_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp312-cp312-macosx_11_0_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp312-cp312-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp312-cp312-manylinux2014_armv7l.manylinux_2_17_armv7l.manylinux_2_31_armv7l.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp312-cp312-manylinux2014_ppc64le.manylinux_2_17_ppc64le.manylinux_2_28_ppc64le.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp312-cp312-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp312-cp312-manylinux_2_31_riscv64.manylinux_2_39_riscv64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp312-cp312-musllinux_1_2_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp312-cp312-musllinux_1_2_armv7l.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp312-cp312-musllinux_1_2_ppc64le.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp312-cp312-musllinux_1_2_riscv64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp312-cp312-musllinux_1_2_s390x.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp312-cp312-musllinux_1_2_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp312-cp312-win32.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp312-cp312-win_amd64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp313-cp313-macosx_10_13_universal2.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp313-cp313-macosx_10_13_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp313-cp313-macosx_11_0_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp313-cp313-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp313-cp313-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp313-cp313-manylinux2014_armv7l.manylinux_2_17_armv7l.manylinux_2_31_armv7l.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp313-cp313-manylinux2014_ppc64le.manylinux_2_17_ppc64le.manylinux_2_28_ppc64le.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp313-cp313-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp313-cp313-manylinux_2_31_riscv64.manylinux_2_39_riscv64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp313-cp313-musllinux_1_2_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp313-cp313-musllinux_1_2_armv7l.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp313-cp313-musllinux_1_2_ppc64le.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp313-cp313-musllinux_1_2_riscv64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp313-cp313-musllinux_1_2_s390x.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp313-cp313-musllinux_1_2_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp313-cp313-win32.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp313-cp313-win_amd64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp314-cp314-macosx_10_15_universal2.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp314-cp314-macosx_10_15_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp314-cp314-macosx_11_0_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp314-cp314-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp314-cp314-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp314-cp314-manylinux2014_armv7l.manylinux_2_17_armv7l.manylinux_2_31_armv7l.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp314-cp314-manylinux2014_ppc64le.manylinux_2_17_ppc64le.manylinux_2_28_ppc64le.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp314-cp314-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp314-cp314-manylinux_2_31_riscv64.manylinux_2_39_riscv64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp314-cp314-musllinux_1_2_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp314-cp314-musllinux_1_2_armv7l.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp314-cp314-musllinux_1_2_ppc64le.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp314-cp314-musllinux_1_2_riscv64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp314-cp314-musllinux_1_2_s390x.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp314-cp314-musllinux_1_2_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp314-cp314-win32.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp314-cp314-win_amd64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp314-cp314t-macosx_10_15_universal2.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp314-cp314t-macosx_10_15_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp314-cp314t-macosx_11_0_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp314-cp314t-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp314-cp314t-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp314-cp314t-manylinux2014_armv7l.manylinux_2_17_armv7l.manylinux_2_31_armv7l.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp314-cp314t-manylinux2014_ppc64le.manylinux_2_17_ppc64le.manylinux_2_28_ppc64le.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp314-cp314t-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp314-cp314t-manylinux_2_31_riscv64.manylinux_2_39_riscv64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp314-cp314t-musllinux_1_2_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp314-cp314t-musllinux_1_2_armv7l.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp314-cp314t-musllinux_1_2_ppc64le.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp314-cp314t-musllinux_1_2_riscv64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp314-cp314t-musllinux_1_2_s390x.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp314-cp314t-musllinux_1_2_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp314-cp314t-win32.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-cp314-cp314t-win_amd64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-pp311-pypy311_pp73-macosx_10_15_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-pp311-pypy311_pp73-macosx_11_0_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-pp311-pypy311_pp73-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-pp311-pypy311_pp73-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-pp311-pypy311_pp73-win_amd64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/websockets/websockets-16.1.1-py3-none-any.whl" },
+]
+
+[[package]]
 name = "widgetsnbextension"
 version = "4.0.15"
 source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
 sdist = { url = "https://mirror2.chabokan.net/pypi/packages/widgetsnbextension/widgetsnbextension-4.0.15.tar.gz" }
 wheels = [
     { url = "https://mirror2.chabokan.net/pypi/packages/widgetsnbextension/widgetsnbextension-4.0.15-py3-none-any.whl" },
+]
+
+[[package]]
+name = "wrapt"
+version = "2.3.0"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp311-cp311-macosx_10_9_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp311-cp311-macosx_11_0_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp311-cp311-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp311-cp311-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp311-cp311-manylinux_2_31_riscv64.manylinux_2_39_riscv64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp311-cp311-musllinux_1_2_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp311-cp311-musllinux_1_2_riscv64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp311-cp311-musllinux_1_2_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp311-cp311-win32.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp311-cp311-win_amd64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp311-cp311-win_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp312-cp312-macosx_10_13_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp312-cp312-macosx_11_0_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp312-cp312-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp312-cp312-manylinux_2_31_riscv64.manylinux_2_39_riscv64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp312-cp312-musllinux_1_2_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp312-cp312-musllinux_1_2_riscv64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp312-cp312-musllinux_1_2_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp312-cp312-win32.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp312-cp312-win_amd64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp312-cp312-win_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp313-cp313-macosx_10_13_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp313-cp313-macosx_11_0_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp313-cp313-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp313-cp313-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp313-cp313-manylinux_2_31_riscv64.manylinux_2_39_riscv64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp313-cp313-musllinux_1_2_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp313-cp313-musllinux_1_2_riscv64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp313-cp313-musllinux_1_2_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp313-cp313-win32.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp313-cp313-win_amd64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp313-cp313-win_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp313-cp313t-macosx_10_13_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp313-cp313t-macosx_11_0_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp313-cp313t-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp313-cp313t-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp313-cp313t-manylinux_2_31_riscv64.manylinux_2_39_riscv64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp313-cp313t-musllinux_1_2_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp313-cp313t-musllinux_1_2_riscv64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp313-cp313t-musllinux_1_2_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp313-cp313t-win32.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp313-cp313t-win_amd64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp313-cp313t-win_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp314-cp314-macosx_10_15_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp314-cp314-macosx_11_0_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp314-cp314-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp314-cp314-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp314-cp314-manylinux_2_31_riscv64.manylinux_2_39_riscv64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp314-cp314-musllinux_1_2_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp314-cp314-musllinux_1_2_riscv64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp314-cp314-musllinux_1_2_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp314-cp314-win32.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp314-cp314-win_amd64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp314-cp314-win_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp314-cp314t-macosx_10_15_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp314-cp314t-macosx_11_0_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp314-cp314t-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp314-cp314t-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp314-cp314t-manylinux_2_31_riscv64.manylinux_2_39_riscv64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp314-cp314t-musllinux_1_2_aarch64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp314-cp314t-musllinux_1_2_riscv64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp314-cp314t-musllinux_1_2_x86_64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp314-cp314t-win32.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp314-cp314t-win_amd64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-cp314-cp314t-win_arm64.whl" },
+    { url = "https://mirror2.chabokan.net/pypi/packages/wrapt/wrapt-2.3.0-py3-none-any.whl" },
 ]
 
 [[package]]
@@ -2480,4 +3914,13 @@ wheels = [
     { url = "https://mirror2.chabokan.net/pypi/packages/yarl/yarl-1.23.0-cp314-cp314t-win_amd64.whl" },
     { url = "https://mirror2.chabokan.net/pypi/packages/yarl/yarl-1.23.0-cp314-cp314t-win_arm64.whl" },
     { url = "https://mirror2.chabokan.net/pypi/packages/yarl/yarl-1.23.0-py3-none-any.whl" },
+]
+
+[[package]]
+name = "zipp"
+version = "4.1.0"
+source = { registry = "https://mirror2.chabokan.net/pypi/simple/" }
+sdist = { url = "https://mirror2.chabokan.net/pypi/packages/zipp/zipp-4.1.0.tar.gz" }
+wheels = [
+    { url = "https://mirror2.chabokan.net/pypi/packages/zipp/zipp-4.1.0-py3-none-any.whl" },
 ]
